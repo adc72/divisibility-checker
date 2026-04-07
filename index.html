@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="myscript.js"></script>
+<body>
+
+<div class="align-text">
+
+<font face ="calibri" size="5"><font size = 20><br><br><br><br>Divisibility Checker</font><br><br>
+
+<form id="myForm">
+<label for="divisible">Divisible by: </label>
+<select id ="divisible" class="large-text-input" name="divisible">
+    <option value =2> &nbsp;&nbsp;2 </option>
+    <option value =4> &nbsp;&nbsp;4 </option>
+    <option value =8 selected>&nbsp;&nbsp;8 (default) &nbsp;&nbsp;</option>
+
+</select><br><br>
+
+
+
+Value: <input id="width"class="large-text-input"><span id="message1"></span><br><span id="message2"></span><br>
+
+<button type="button" class="button-check" onclick="checkNum()">Check</button>
+    <button type="button" class ="button-clear" onclick="ClearForm()">Reset</button>
+</form><br>
+
+</div>
+<center><div class="white-box"><br><br><p id ="result"></span><ul id="list-container"></ul></div>
+
+
+
+</body>
+</html>
